@@ -50,12 +50,12 @@ function sendEmail() {
   </div>
 `;
 
-  email.send({
+  Email.send({
     Host: "smtp.elasticemail.com",
-    Username: "vrushabhvirkar2002@gmail.com",
-    Password: "3B90AA843D8DCA9333F0808C684A7F36C4F9",
-    To: 'vrushabhvirkar2002@gmail.com',
-    From: "vrushabhvirkar2002@gmail.com",
+    Username: "veerkhushal682@gmail.com",
+    Password: "EEB95D4EA3096D2DA0E2A2D121CC8424F3A8",
+    To: "veerkhushal682@gmail.com",
+    From: "veerkhushal682@gmail.com",
     Subject: subject.value,
     Body: bodyMessage
   }).then(
